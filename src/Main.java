@@ -85,12 +85,12 @@ public class Main {
         System.out.println("Задача №8: ");
         var officeHours = 640;
         var employeeHours = 8;
-        var numberOfEmployees = officeHours / employeeHours;
-        System.out.println("Всего рабоников в компании - " + numberOfEmployees + " человек");
-        var increaseEmployees = 96;
-        var newNumberOfEmployees = numberOfEmployees + increaseEmployees;
-        var newOfficeHours = newNumberOfEmployees * employeeHours;
-        System.out.println("Если в компании работает " + newNumberOfEmployees + " человек, то всего " + newOfficeHours
+        var totalEmployees = officeHours / employeeHours;
+        System.out.println("Всего рабоников в компании - " + totalEmployees + " человек");
+        var increaseEmployees = 94;
+        totalEmployees = totalEmployees + increaseEmployees;
+        var newOfficeHours = totalEmployees * employeeHours;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + newOfficeHours
         + " часов работы может быть поделено между сотрудниками");
     }
 }
